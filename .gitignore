@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Node / Playwright
+node_modules/
+*.exe
+
+# Large ML files
+*.dll
+*.bin
+*.pt
+*.pth
+*.onnx
+*.ckpt
+
+# FAISS indexes
+*.faiss
+*.index
+
+# Logs
+*.log
