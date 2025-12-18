@@ -1,3 +1,4 @@
+
 import csv
 from backend.recommender import recommend
 
@@ -14,3 +15,4 @@ with open("predictions.csv", "w", newline="", encoding="utf-8") as f:
         recs = recommend(q)
         for r in recs:
             writer.writerow([q, r["url"]])
+
