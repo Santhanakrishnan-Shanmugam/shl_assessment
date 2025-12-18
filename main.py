@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
-from recommender import recommend
+from backend.recommender import recommend
 
 app = FastAPI(
     title="SHL Assessment Recommendation API",
