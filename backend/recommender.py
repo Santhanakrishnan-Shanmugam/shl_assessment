@@ -2,10 +2,11 @@ import os
 from langchain_community.vectorstores import FAISS
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from dotenv import load_dotenv
+from pathlib import Path
 # =========================
 # CONFIG
 # =========================
-INDEX_DIR = "../data/faiss_store"
+INDEX_DIR = Path(__file__).resolve().parent.parent / "data" / "faiss_store"
 load_dotenv()
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
