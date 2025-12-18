@@ -22,7 +22,7 @@ if st.button("Get Recommendations") and query:
     with st.spinner("Fetching recommendations..."):
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/recommend", 
+                "https://shl-assessment-2-60rs.onrender.com/recommend", 
                 json={"query": query}
             )
             response.raise_for_status()
