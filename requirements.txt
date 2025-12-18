@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pandas
+numpy
+faiss-cpu
+sentence-transformers
+beautifulsoup4
+requests
+streamlit
+playwright
+langchain
+langchain-google-genai
+google-generativeai
+faiss-cpu
+pandas
+python-dotenv
