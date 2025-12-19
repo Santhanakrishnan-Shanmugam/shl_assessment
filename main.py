@@ -9,7 +9,7 @@ app = FastAPI(
 )
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["https://shl-assessment-4.onrender.com/"],   # allow all origins (safe for demo)
+    allow_origins=["https://shl-assessment-4.onrender.com"],   # allow all origins (safe for demo)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
